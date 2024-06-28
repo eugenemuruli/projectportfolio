@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- nav section -->
+    <nav>
+      <div class="log">
+        <span><a href="#">Eugene</a></span>
+      </div>
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Service">Services</a></li>
+        <li><a href="#Contact">contact</a></li>
+        <li><a href="#Skills">skills</a></li>
+      </ul>
+    </nav>
+    <!-- nav end -->
+    <!-- hero section(home) -->
+    <section id="Home">
+      <div class="row">
+        <div class="col1">
+          <h2>Hey there!!! Am Eugene👋</h2>
+          <br />
+          <h2>Front end developer</h2>
+        </div>
+        <div class="col2">
+          <img src="/img2.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- about section -->
+    <section id="About" class="aboutsec">
+      <div class="row">
+        <div class="col1">
+          <h2>About me</h2>
+          <br />
+          <p>I am experienced Front end developer</p>
+        </div>
+        <div class="col2">
+          <img src="/image.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- service section -->
+    <section id="Service">
+      <h1 class="serve">Services</h1>
+      <div class="gritrow">
+        <div class="box">
+          <h2>Web design</h2>
+          <p>
+            Eugene isn't just a coder, he's a web architect. He translates ideas
+            into beautiful, functional online landscapes. With lines of code as
+            his bricks and creativity as his mortar, Eugene builds experiences
+            that not only look stunning, but navigate like a dream. Whether it's
+            a user-friendly e-commerce platform or a data-driven dashboard,
+            Eugene crafts digital spaces that captivate and convert.
+          </p>
+        </div>
+        <div class="box">
+          <h2>Graphic design</h2>
+          <p>
+            Eugene isn't just a designer, he's a visual storyteller. He crafts
+            captivating narratives with every logo, layout, and illustration.
+            His toolbox overflows with vibrant palettes and clean lines, and his
+            mind teems with bold ideas. Eugene breathes life into brands,
+            transforming them from names on a page to unforgettable experiences.
+            From eye-catching social media graphics to impactful marketing
+            campaigns, Eugene paints a picture that resonates and compels.
+          </p>
+        </div>
+        <div class="box">
+          <h2>Database administration</h2>
+          <p>
+            Eugene, the data whisperer, isn't just an administrator; he's a
+            digital librarian. He organizes the chaos of information into
+            meticulously labeled shelves, ensuring every detail is meticulously
+            filed and readily retrievable. With a keen eye for structure and a
+            mastery of complex queries, Eugene safeguards the lifeblood of your
+            operation. He speaks the language of databases, ensuring smooth
+            information flow and empowering informed decisions.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- contact section -->
+    <section id="Contact">
+      <h1 class="contact">Contact</h1>
+      <div class="gritrow2">
+        <div class="box2">
+          <h2>My contacts</h2>
+          <br />
+          <ol>
+            <li>Phone NO: 0705575469 📞</li>
+            <li>EMAIL: murulieugene@gmail.com 📨</li>
+            <li>whatsup: 0705575469 <i class="bi bi-whatsapp"></i></li>
+          </ol>
+        </div>
+        <div class="box2">
+          <h2>facebook</h2>
+          <br />
+          <p>Eugene muruli <i class="bi bi-facebook"></i></p>
+        </div>
+        <div class="box2">
+          <h2>Twiter</h2>
+          <br />
+          <p>@murulieugene <i class="bi bi-twitter"></i></p>
+        </div>
+        <div class="box2">
+          <h2>Telegram</h2>
+          <br />
+          <p>eugene muruli <i class="bi bi-telegram"></i></p>
+        </div>
+      </div>
+    </section>
+    <!-- skills section -->
+    <section id="Skills">
+      <div class="skils">
+        <h1>skills offered:</h1>
+        <div class="skill">
+          <p>
+            User-friendly websites with HTML, CSS, and Javascript, crafting
+            experiences that captivate.
+          </p>
+          <p>
+            Wrangles information with SQL queries, organizing it meticulously in
+            databases with MySQL, ensuring smooth information flow for informed
+            decisions.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- footer section -->
+    <footer>
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          let mydate = new Date();
+          let year = mydate.getFullYear();
+          document.getElementById("foot").textContent = year;
+        });
+      </script>
+      <div>
+        <p>&copy system developed by Eugene @ <span id="foot"> </span></p>
+        <a href="#Home"> Home⬆</a>
+      </div>
+    </footer>
+  </body>
+</html>
